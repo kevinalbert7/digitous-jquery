@@ -1,5 +1,3 @@
-$(function() {
-    $("button").click(function() {
-        $("#square").css({"background-color": "red"});
-    })
+$("button").click(function() {
+    $("#square").css({"background-color": "red"})
 })

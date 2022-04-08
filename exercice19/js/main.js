@@ -1,5 +1,3 @@
-$(function() {
-  $(".btn").click(function() {
-    $(input).removeAttr(disabled)   
-  })
+$(".btn").click(function() {
+  $("input").removeAttr("disabled")   
 })
