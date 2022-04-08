@@ -1,3 +1,3 @@
 $(function(){
-  $('text')
-  });
+  $("#text").show()
+});
