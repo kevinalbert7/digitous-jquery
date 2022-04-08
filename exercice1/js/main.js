@@ -1,3 +1,3 @@
 $(function(){
-    $("#square").css({"background-color": "yellow"});
-});
+    $("#square").css({"background-color": "yellow"})
+})

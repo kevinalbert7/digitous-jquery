@@ -1,3 +1,3 @@
 $(function(){
-    $("#text").html("Konexio!");
+    $("#text").html("Konexio!")
 })

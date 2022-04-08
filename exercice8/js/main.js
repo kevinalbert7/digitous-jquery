@@ -1,6 +1,5 @@
-$(function()){
-  $("button").click(function(){
+$("button").click(function(){
   displaySecretText() 
-  });
-});
+})
+
 
