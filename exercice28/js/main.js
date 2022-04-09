@@ -1,7 +1,3 @@
-$(function() {
-    $("button").click(function() {
-        $("form-control").val();
-    })
+$("button").click(function() {
+    console.log($("#exercise input").val())
 })
-
-    console.log(click("form-control"))

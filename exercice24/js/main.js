@@ -1,7 +1,3 @@
-$(function() {
-    $("button").click(function() {
-        $("#bg").animate({
-            margin: '0 0 0 100px'
-        }, 3000)
-    })
+$("button").click(function() {
+    $("#bg").animate({"margin-left": "100px"}, 3000)
 })

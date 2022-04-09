@@ -1,8 +1,3 @@
-$(function() {
-    $(".btn").click(function() {
-        $("input").addClass("is-invalid")
-    })
+$(".btn").click(function() {
+    $("input").addClass("is-invalid")
 })
-    
-    console.log("form-control")
-
