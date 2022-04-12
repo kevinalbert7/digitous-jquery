@@ -11,17 +11,30 @@
 </head>
 
 <body>
-    <div>
-    <h1>Game of thrones</h1>
+    <div class="container">
+        <h1 class="d-flex justify-content-center my-4">Game of thrones</h1>
+        
+        <div class="row">
+            <div class="col-6">
+                <form class="row g-3 form">
+                    <div class="col-8">
+                        <input id="characterInput" type="text" class="form-control" placeholder="Enter a character's name"/>
+                    </div>
+                    <div class="col-4">
+                        <button type="submit" class="btn btn-primary mb-3 search">Search</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-2">
+                <button type="submit" class="btn btn-primary mb-3 shuffle">Shuffle</button>
+            </div>
+        </div>
+        
     </div>
-    <div class="search">
-        <div class="form"><form><input class="form-control input" id="champs" placeholder="Search..."></form></div>
-        <button type="submit" class="btn btn-primary">Search</button>
+    <div class="container">
+        <div class="row character"></div>
     </div>
-    
-    <div class="perso row">
-            
-    </div> 
 
     <script src="jquery.js"></script>
     <script src="index.js"></script>
