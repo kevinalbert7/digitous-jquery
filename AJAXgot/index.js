@@ -45,99 +45,10 @@ $(function() {
     
     }
 
-    $(".shuffle").click(function() {
-        var shuffledCharacters = _.shuffle(characters)
-        displayList(shuffledCharacters)
-    })
+    // $(".shuffle").click(function() {
+    //     var shuffledCharacters = .shuffle(characters)
+    //     displayList(shuffledCharacters)
+    // })
 
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// $(function() {
-//     var characters = []
-    
-//     function displayPersonnages(characters){
-        
-//         characters.forEach(function(personnage) {
-            
-//             $(".perso").append(`
-//                 <div class="element col-4">
-//                 <div><img src="${personnage.imageUrl}"></div>
-//                 <div class="fontName">${personnage.fullName}</div>
-//                 <div class="fontTitle">${personnage.title}</div>
-//                 </div>
-//             `
-//             )
-//         })
-//     }
-        
-//         $.ajax({
-//             url: 'https://thronesapi.com/api/v2/Characters',
-//             success: function(data) {
-                
-//                 displayPersonnages(data)
-//                 characters = data
-                
-//             }
-//         })
-        
-//         console.log("characters début:", characters)
-
-// // ---------------Fonction recherche----------------//
-                
-//     var champs = document.getElementById("champs")
-                
-//     champs.addEventListener("keyup", function() {
-//         var input = champs.value
-//         console.log("characters dans keyup:", characters)
-
-//     //    characters.filter(function(params) {
-           
-//     })
-
-//     var result = characters.filter(personnage => personnage.fullName.toLowerCase().includes(personnage.toLowerCase()) )
-   
-//     console.log(result)
-
-//     let perso = ""
-
-//         if (characters !== "") {
-//                 result.forEach(resultItem =>
-//                     perso +=`
-//                             <div class="element col-4">
-//                                 <div><img src="${personnage.imageUrl}"></div>
-//                                 <div class="fontName">${personnage.fullName}</div>
-//                                 <div class="fontTitle">${personnage.title}</div>
-//                             </div>
-//                             `
-//             )
-//         }
-//     document.getElementById("perso").innerHTML = perso
-// })
-
-
-
-
 
